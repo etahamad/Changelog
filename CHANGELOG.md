@@ -1,0 +1,57 @@
+# POSP Changelog for lavender
+## v4.0.2 (2021.02.##)
+Mainline:
+ - Build enforce
+ - Update Kernel to Predator-Stormbreaker-X4.4 - 4.4.255
+ - Updated fingerprint from Redfin - RQ1A.210205.004
+ - Update telephony from LA.QSSI.11.0.r1-09400-qssi.0 (Now the RIL / VoLTE is way better)
+ - Updated blobs from LA.UM.8.2.r1-07400-sdm660.0
+ - Updated GPS blobs from LA.UM.9.12.r1-09500-SMxx50.0 to improve GPS accuracy
+ - Updated GPS HAL from LA.UM.9.2.r1-01800-SDMxx0.0 to improve GPS accuracy
+ - Updated thermal and Widevine blobs from jasmine V11.0.19.0 QDIMIXM
+
+Fixes:
+ - Fixed POSP bootanimation lag
+ - Fixed Google Recorder
+ - [temp] Removed L1 support to fix Netflix crashes
+ - Improved idle drain
+ - Add support for potato notch city
+ - Fixed some issues that reported from the logs
+ - (Hopefully) fix the WFD
+ - Fixed Offline charing (it was activating the bootanimation at the same time, now it's only the offline charge)
+
+Optimizations:
+ - create and symlink a dummy /metadata/apex to get use of the new AOSP Changes for APEX
+ - Dropped custom DHCP ranges in TetheringOverlay
+ - TetheringOverlay and WifiOverlay now gets signed with default cert
+ - Enabled VR high perfomance options
+ - Keep biometrics in system-background (more power saving)
+ - Bigger QS Tiles by 6% for more check this comment https://github.com/PotatoDevices/device_xiaomi_lavender/commit/771de8c82ad19c033499fff0c4f69ba9ab5404d4#commitcomment-46033231
+ - Better sound recorder
+ - Kernel compiled using latest AOSP stable clang
+ - Drop support for HMP kernels 
+ - Using CAF IMS now (VoLTE)
+ - Migrated to Health 2.1 HAL 
+ - Changed USB autosusupend delay to 7s in order to fix USB audio device connection issues
+ - Configured SQLite to operate in MEMORY mode for a nice SQL perfomance boost
+ - Reduce screenshot delay to 0
+ - Add hotword input for hotword mic concurrency
+ - Add fast input profile for the record concurrency
+ - Using QCOM_WLAN HAL instead of AOSP now
+ - Redesign FPS
+ - Dropped useless Thermal from the Device Settings
+
+## v4.0.1 (2020.12.24)
+Mainline:
+ - Initial Official Release (Crispy)
+ - Updated build fingerprint to Coral RQ1A.201205.008.
+ - Updated kernel to Predator-Stormbreaker X4.2 - 4.4.248.
+ - Fixed Hotspot with no password.
+ - Fixed GBoard extra spacing over the navigation bar.
+ - Added new offline charging animation with battery level.
+ - Less boot time.
+
+Notes:
+ - Netflix is not working with L1 (crashes),
+ - join the support chat to know how to remove L1
+ - to get your netflix work for now until we fix it, thank you.
