@@ -1,8 +1,8 @@
 # POSP Changelog for lavender
-## v4.0.2 (2021.02.##)
+## v4.0.2 (2021.02.15)
 Mainline:
  - Build enforce
- - Update Kernel to Predator-Stormbreaker-X4.4 - 4.4.255
+ - Update Kernel to Predator-Stormbreaker-X4.4 - 4.4.257
  - Updated fingerprint from Redfin - RQ1A.210205.004
  - Update telephony from LA.QSSI.11.0.r1-09400-qssi.0 (Now the RIL / VoLTE is way better)
  - Updated blobs from LA.UM.8.2.r1-07400-sdm660.0
@@ -26,7 +26,7 @@ Optimizations:
  - TetheringOverlay and WifiOverlay now gets signed with default cert
  - Enabled VR high perfomance options
  - Keep biometrics in system-background (more power saving)
- - Bigger QS Tiles by 6% for more check this comment https://github.com/PotatoDevices/device_xiaomi_lavender/commit/771de8c82ad19c033499fff0c4f69ba9ab5404d4#commitcomment-46033231
+ - Bigger QS Tiles by 6% for more check this comment: https://git.io/JtPoQ
  - Better sound recorder
  - Kernel compiled using latest AOSP stable clang
  - Drop support for HMP kernels 
