@@ -1,4 +1,21 @@
 # POSP Changelog for lavender
+## v4.0.3 (2021.02.21)
+Mainline:
+ - Add Dirac back-end support (for Fries Dirac)
+ - Add support for 240FPS 1/8 slow motion
+ - update Telephony overlays from LA.UM.9.2.1.r1-05500-sdm660.0
+
+Fixes:
+ - Re-Enable zRAM (2 GB)
+
+Optimizations:
+ - Disable V-Sync (Smoother Ui)
+ - Move some props into his right path
+ - Symlink metadata to existing sessions 
+ - Disable foreground prefer_idle & reduce TA boost
+ - import Hotword Enrollment blobs
+ - Optimize thermal
+
 ## v4.0.2 (2021.02.15)
 Mainline:
  - Build enforce
