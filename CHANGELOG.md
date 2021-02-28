@@ -10,7 +10,7 @@ Mainline:
  - WFD: Update wfd blobs from LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
 
 Fixes:
- - AudioFX: [[Check Notes]] FixedUp AudioFX (Source)
+ - AudioFX: [Check Notes] FixedUp AudioFX (Source)
  - FixedUp Dirac back-end (Tree)
  
 Optimizations:
