@@ -1,3 +1,6 @@
+# Source Changelog
+https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md
+
 # POSP Changelog for lavender
 ## v4.0.4 (2021.02.28)
 Mainline:
