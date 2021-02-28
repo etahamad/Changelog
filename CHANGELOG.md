@@ -10,7 +10,7 @@ Mainline:
  - WFD: Update wfd blobs from LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
 
 Fixes:
- - AudioFX: FixedUp AudioFX (Source)
+ - AudioFX: [[Check Notes]] FixedUp AudioFX (Source)
  - FixedUp Dirac back-end (Tree)
  
 Optimizations:
@@ -20,6 +20,10 @@ Optimizations:
  - Bluetooth: Disable clean turn on
  - Porps: Set vendor.audio.adm.buffering.ms to 3 
  - KERNEL: Set loop max part to 7
+
+Notes:
+ - Restart SystemUI after Updating
+ - AudioFX: To make AudioFX work, go to (settings > audio > mi sound) and enable it first, then open fries, you will find it active, just hit the key off then turn it on again and it will work as normal, this issue will be fixed next build.
 
 ## v4.0.3 (2021.02.21)
 Mainline:
