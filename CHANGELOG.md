@@ -2,7 +2,7 @@
 https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md
 
 # POSP Changelog for lavender
-## v4.0.4 (2021.02.28)
+## v4.0.4 (2021.03.01)
 Mainline:
  - Graphics: Update graphics from LA.UM.9.6.2.r1-03300-89xx.0 (0502.0)
  - ESE: Update ESE blobs from LA.UM.9.6.2.r1-03300-89xx.0
