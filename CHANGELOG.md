@@ -2,15 +2,18 @@
 https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md
 
 # POSP Changelog for lavender
-## v4.0.4 (2021.03.01)
+## v4.0.5 (2021.03.08)
 Mainline:
- - Graphics: Update graphics from LA.UM.9.6.2.r1-03300-89xx.0 (0502.0)
- - ESE: Update ESE blobs from LA.UM.9.6.2.r1-03300-89xx.0
- - Media: Update Media blobs from LA.UM.9.6.2.r1-03300-89xx.0
- - WFD: Update wfd blobs from LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
+ - DeviceSettings: Added Clear Speaker
+ - ESE:   LA.UM.9.6.2.r1-03300-89xx.0
+ - Media: LA.UM.9.6.2.r1-03300-89xx.0
+ - WFD:   LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
+ - GPS:   LA.UM.9.6.2.r1-03300-89xx.0
+ - Time:  LA.UM.9.6.2.r1-03300-89xx.0
+ - Radio and IMS: LA.UM.9.6.2.r1-03300-89xx.0
 
 Fixes:
- - AudioFX: [Check Notes] FixedUp AudioFX (Source)
+ - AudioFX: FixedUp AudioFX (Source)
  - FixedUp Dirac back-end (Tree)
  
 Optimizations:
@@ -19,11 +22,13 @@ Optimizations:
  - APEX: Flatten APEXs for performance
  - Bluetooth: Disable clean turn on
  - Porps: Set vendor.audio.adm.buffering.ms to 3 
- - KERNEL: Set loop max part to 7
+ - Props: Shorten wait time for services exit to optimize shutdown time
+ - Rootdir: Add permission for /dev/sp_keymaster_ssr
+ - Sepolicy: Adress system_server denials
+ - Sepolicy: Address gmscore_app.te denials
 
 Notes:
  - Restart SystemUI after Updating
- - AudioFX: To make AudioFX work, go to (settings > audio > mi sound) and enable it first, then open fries, you will find it active, just hit the key off then turn it on again and it will work as normal, this issue will be fixed next build.
 
 ## v4.0.3 (2021.02.21)
 Mainline:
