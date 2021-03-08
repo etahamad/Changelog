@@ -19,7 +19,6 @@ Fixes:
 Optimizations:
  - Recorder: Set maxinum meida record to 60fps
  - IMS: Allow com.qualcomm.location to run in the background
- - APEX: Flatten APEXs for performance
  - Bluetooth: Disable clean turn on
  - Porps: Set vendor.audio.adm.buffering.ms to 3 
  - Props: Shorten wait time for services exit to optimize shutdown time
