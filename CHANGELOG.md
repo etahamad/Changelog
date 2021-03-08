@@ -28,7 +28,7 @@ Optimizations:
  - Sepolicy: Address gmscore_app.te denials
 
 Notes:
- - Restart SystemUI after Updating
+ - Restart SystemUI after Updating to fix double status bar issue.
 
 ## v4.0.3 (2021.02.21)
 Mainline:
