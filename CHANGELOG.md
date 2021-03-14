@@ -1,17 +1,17 @@
-# POSP Changelog for lavender
-## v4.0.6 (2021.03.08)
-Mainline:
+# *POSP Changelog for lavender*
+## *v4.0.6 (2021.03.08)*
+### *Mainline:*
  - Updated Kernel to Predator X4.4-r1 - 4.4.258
  - Added qrtr blobs
 
-Optimizations
+### *Optimizations:*
  - Switched to AIDL Power HAL
  - Switched to audio hal v4
  - Disabled WLAN Firmware loggings
  - Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
 
-## v4.0.5 (2021.03.08)
-Mainline:
+## *v4.0.5 (2021.03.08)*
+### *Mainline:*
  - DeviceSettings: Added Clear Speaker
  - ESE:   LA.UM.9.6.2.r1-03300-89xx.0
  - Media: LA.UM.9.6.2.r1-03300-89xx.0
@@ -20,11 +20,11 @@ Mainline:
  - Time:  LA.UM.9.6.2.r1-03300-89xx.0
  - Radio and IMS: LA.UM.9.6.2.r1-03300-89xx.0
 
-Fixes:
+### *Fixes:*
  - AudioFX: FixedUp AudioFX (Source)
  - FixedUp Dirac back-end (Tree)
  
-Optimizations:
+### *Optimizations:*
  - Recorder: Set maxinum meida record to 60fps
  - IMS: Allow com.qualcomm.location to run in the background
  - Bluetooth: Disable clean turn on
@@ -34,7 +34,7 @@ Optimizations:
  - Sepolicy: Adress system_server denials
  - Sepolicy: Address gmscore_app.te denials
 
-Source:
+### *Source:*
 - March patch
 - DataSwitchTile tile
 - Quick access Wallet (Shows cards on power menu)
@@ -50,16 +50,16 @@ Source:
 - Various misc bug fixes
 - Misc bugfixes
 
-## v4.0.3 (2021.02.21)
-Mainline:
+## *v4.0.3 (2021.02.21)*
+### *Mainline:*
  - Add Dirac back-end support (for Fries Dirac)
  - Add support for 240FPS 1/8 slow motion
  - update Telephony overlays from LA.UM.9.2.1.r1-05500-sdm660.0
 
-Fixes:
+### *Fixes:*
  - Re-Enable zRAM (2 GB)
 
-Optimizations:
+### *Optimizations:*
  - Disable V-Sync (Smoother Ui)
  - Move some props into his right path
  - Symlink metadata to existing sessions 
@@ -67,7 +67,7 @@ Optimizations:
  - import Hotword Enrollment blobs
  - Optimize thermal
 
-Source:
+### *Source:*
 - Use fixed row & column in landscape if media is playing
 - Fixed lock icon not changing after system icon pack
 - Hide lockscreen media art if media is not playing
@@ -78,9 +78,9 @@ Source:
 - Reset battery stats
 - Fix crashes in Updater
 - Add back initial DiracSound and MiSound support
-- 
-## v4.0.2 (2021.02.15)
-Mainline:
+
+## *v4.0.2 (2021.02.15)*
+### *Mainline:*
  - Build enforce
  - Update Kernel to Predator-Stormbreaker-X4.4 - 4.4.257
  - Updated fingerprint from Redfin - RQ1A.210205.004
@@ -90,7 +90,7 @@ Mainline:
  - Updated GPS HAL from LA.UM.9.2.r1-01800-SDMxx0.0 to improve GPS accuracy
  - Updated thermal and Widevine blobs from jasmine V11.0.19.0 QDIMIXM
 
-Fixes:
+### *Fixes:*
  - Fixed POSP bootanimation lag
  - Fixed Google Recorder
  - [temp] Removed L1 support to fix Netflix crashes
@@ -100,7 +100,7 @@ Fixes:
  - (Hopefully) fix the WFD
  - Fixed Offline charing (it was activating the bootanimation at the same time, now it's only the offline charge)
 
-Optimizations:
+### *Optimizations:*
  - create and symlink a dummy /metadata/apex to get use of the new AOSP Changes for APEX
  - Dropped custom DHCP ranges in TetheringOverlay
  - TetheringOverlay and WifiOverlay now gets signed with default cert
@@ -121,30 +121,30 @@ Optimizations:
  - Redesign FPS
  - Dropped useless Thermal from the Device Settings
 
-Source:
-- Builds will now compile weekly!
-- Merge android-11.0.0_r31
-- February security patch
-- New OTA app
-- LTE <-> 4G icon toggle
-- Roaming indicator toggle
-- VoLTE icon toggle
-- Epic improvements to Fries
-- 3 finger screenshot
-- Pill hide
-- Pill sizes
-- StatusBar Tuner
-- Lockscreen Tuner
-- Navbar Tuner
-- Improvements to DeskClock
-- Disable SafetyNet HW attestation
-- Smoother upload and download animations
-- Temporarily re-add backuptool
-- Add QTI BT for devices that support it
-- Switch to GitHub releases for releases
+### *Source:*
+ - Builds will now compile weekly!
+ - Merge android-11.0.0_r31
+ - February security patch
+ - New OTA app
+ - LTE <-> 4G icon toggle
+ - Roaming indicator toggle
+ - VoLTE icon toggle
+ - Epic improvements to Fries
+ - 3 finger screenshot
+ - Pill hide
+ - Pill sizes
+ - StatusBar Tuner
+ - Lockscreen Tuner
+ - Navbar Tuner
+ - Improvements to DeskClock
+ - Disable SafetyNet HW attestation
+ - Smoother upload and download animations
+ - Temporarily re-add backuptool
+ - Add QTI BT for devices that support it
+ - Switch to GitHub releases for releases
 
-## v4.0.1 (2020.12.24)
-Mainline:
+## *v4.0.1 (2020.12.24)*
+### *Mainline:*
  - Initial Official Release (Crispy)
  - Updated build fingerprint to Coral RQ1A.201205.008.
  - Updated kernel to Predator-Stormbreaker X4.2 - 4.4.248.
@@ -153,12 +153,12 @@ Mainline:
  - Added new offline charging animation with battery level.
  - Less boot time.
 
-Notes:
+### Notes:
  - Netflix is not working with L1 (crashes),
  - join the support chat to know how to remove L1
  - to get your netflix work for now until we fix it, thank you.
 
-Source:
+### *Source:*
 - RGB accenter is back, and its better (and faster!) than ever :D
 - Pick accents your way with 3 different color pickers. You can also choose different accents for dark and light mode.
 - Our famous volume panels from Q are back and are baked to perfection!
