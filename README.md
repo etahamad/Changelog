@@ -10,6 +10,8 @@
  - Disabled WLAN Firmware loggings
  - Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
 
+---------------------------------------
+
 ## *v4.0.5 (2021.03.08)*
 ### *Mainline:*
  - DeviceSettings: Added Clear Speaker
@@ -50,6 +52,8 @@
 - Various misc bug fixes
 - Misc bugfixes
 
+---------------------------------------
+
 ## *v4.0.3 (2021.02.21)*
 ### *Mainline:*
  - Add Dirac back-end support (for Fries Dirac)
@@ -78,6 +82,8 @@
 - Reset battery stats
 - Fix crashes in Updater
 - Add back initial DiracSound and MiSound support
+
+---------------------------------------
 
 ## *v4.0.2 (2021.02.15)*
 ### *Mainline:*
@@ -142,6 +148,8 @@
  - Temporarily re-add backuptool
  - Add QTI BT for devices that support it
  - Switch to GitHub releases for releases
+
+---------------------------------------
 
 ## *v4.0.1 (2020.12.24)*
 ### *Mainline:*
