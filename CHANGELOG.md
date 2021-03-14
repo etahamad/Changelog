@@ -2,6 +2,17 @@
 https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md
 
 # POSP Changelog for lavender
+## v4.0.6 (2021.03.08)
+Mainline:
+ - Updated Kernel to Predator X4.4-r1 - 4.4.258
+ - Added qrtr blobs
+
+Optimizations
+ - Switched to AIDL Power HAL
+ - Switched to audio hal v4
+ - Disabled WLAN Firmware loggings
+ - Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
+
 ## v4.0.5 (2021.03.08)
 Mainline:
  - DeviceSettings: Added Clear Speaker
