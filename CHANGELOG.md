@@ -1,6 +1,3 @@
-# Source Changelog
-https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md
-
 # POSP Changelog for lavender
 ## v4.0.6 (2021.03.08)
 Mainline:
@@ -37,8 +34,21 @@ Optimizations:
  - Sepolicy: Adress system_server denials
  - Sepolicy: Address gmscore_app.te denials
 
-Notes:
- - Restart SystemUI after Updating to fix double status bar issue.
+Source:
+- March patch
+- DataSwitchTile tile
+- Quick access Wallet (Shows cards on power menu)
+- Call recorder added for supported devices
+- Improve "Conversation" app list
+- Fix AudioFX in Fries
+- Add back QS Tile Disco
+- The real disco is lurking out there, but where?
+- Fixed AOD bug 
+- Caffeine tile
+- Changed ugly drawables of Advanced reboot
+- Multiuser avatar in search bar
+- Various misc bug fixes
+- Misc bugfixes
 
 ## v4.0.3 (2021.02.21)
 Mainline:
@@ -57,6 +67,18 @@ Optimizations:
  - import Hotword Enrollment blobs
  - Optimize thermal
 
+Source:
+- Use fixed row & column in landscape if media is playing
+- Fixed lock icon not changing after system icon pack
+- Hide lockscreen media art if media is not playing
+- PixelPropsUtils (spoofed build fingerprint to redfin for some apps)
+- Implement SmartSpace from redfin
+- Advanced reboot option
+- Dash charging text for OnePlus devices
+- Reset battery stats
+- Fix crashes in Updater
+- Add back initial DiracSound and MiSound support
+- 
 ## v4.0.2 (2021.02.15)
 Mainline:
  - Build enforce
@@ -99,6 +121,28 @@ Optimizations:
  - Redesign FPS
  - Dropped useless Thermal from the Device Settings
 
+Source:
+- Builds will now compile weekly!
+- Merge android-11.0.0_r31
+- February security patch
+- New OTA app
+- LTE <-> 4G icon toggle
+- Roaming indicator toggle
+- VoLTE icon toggle
+- Epic improvements to Fries
+- 3 finger screenshot
+- Pill hide
+- Pill sizes
+- StatusBar Tuner
+- Lockscreen Tuner
+- Navbar Tuner
+- Improvements to DeskClock
+- Disable SafetyNet HW attestation
+- Smoother upload and download animations
+- Temporarily re-add backuptool
+- Add QTI BT for devices that support it
+- Switch to GitHub releases for releases
+
 ## v4.0.1 (2020.12.24)
 Mainline:
  - Initial Official Release (Crispy)
@@ -113,3 +157,29 @@ Notes:
  - Netflix is not working with L1 (crashes),
  - join the support chat to know how to remove L1
  - to get your netflix work for now until we fix it, thank you.
+
+Source:
+- RGB accenter is back, and its better (and faster!) than ever :D
+- Pick accents your way with 3 different color pickers. You can also choose different accents for dark and light mode.
+- Our famous volume panels from Q are back and are baked to perfection!
+- Notch City is back, though there are only 2 modes for now. Stay tuned for an update :)
+- Added some staple QS tiles including heads-up and NFC, and fixed icons for WiFi.
+- Add/remove QS tiles with one click 
+- Installing an APK? Package Installer will show you the current and new version.
+- Choose your clock styles on lockscreen, in style
+- Status bar now shows you your bluetooth device's battery level too
+- Accidentally took a screenshot? Delete it right away, without opening Gallery!
+- Assistant's animation is now nice and Colorful.
+- Choose from 6 battery styles
+- Take back control of QS with brightness slider tweaks and QS titles & dimensions 
+- Doubletap/Longpress power to toggle Flashlight
+- There is now an option to enable lockscreen media art with blur control
+- Who needs a power button anyways? Double tap lockscreen or homescreen to sleep
+- Skip tracks with volume buttons. (Stop being so lazy, Nico!)
+- Pulse ambient display on new music tracks
+- Only receive heads-up from messaging and calling apps with Less-boring headsups!
+- Permission hub is back so you know when your FBI man is watching you
+- Added per app network isolation option with VPN upstreams 
+- Dialer and messaging are now dark too. Dark mode all the things!
+- Completely de-googlified, with full microG support :D something frooty is on the way too
+- No Pixel Launcher? No problem! Swipe left from your home screen for GNow (Needs GApps!)
