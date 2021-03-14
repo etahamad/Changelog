@@ -1,5 +1,5 @@
 # *POSP Changelog for lavender*
-## *v4.0.6 (2021.03.08)*
+## *v4.0.6 (2021.03.15)*
 ### *Mainline:*
  - Updated Kernel to Predator X4.4-r1 - 4.4.258
  - Added qrtr blobs
