@@ -10,7 +10,7 @@
  - [Power HAL] Switched to AIDL Power HAL
  - [Audio HAL] Switched to audio hal v4
  - [WLAN] Disabled WLAN Firmware loggings
- - [App] Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
+ - [AudioFX] Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
 
 ---------------------------------------
 
