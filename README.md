@@ -1,3 +1,5 @@
+---------------------------------------
+
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 ---------------------------------------
@@ -194,3 +196,5 @@
 - Dialer and messaging are now dark too. Dark mode all the things!
 - Completely de-googlified, with full microG support :D something frooty is on the way too
 - No Pixel Launcher? No problem! Swipe left from your home screen for GNow (Needs GApps!)
+
+---------------------------------------
