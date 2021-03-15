@@ -5,41 +5,32 @@
 ---------------------------------------
 
 ## *v4.0.6 (2021.03.15)*
-### *Mainline:*
- - Updated Kernel to Predator X4.4-r1 - 4.4.258
- - Added qrtr blobs
-
-### *Optimizations:*
- - Switched to AIDL Power HAL
- - Switched to audio hal v4
- - Disabled WLAN Firmware loggings
- - Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
+ - [Kernel] Updated Kernel to Predator X4.4-r1 - 4.4.258
+ - [Blobs] Added qrtr blobs
+ - [Power HAL] Switched to AIDL Power HAL
+ - [Audio HAL] Switched to audio hal v4
+ - [WLAN] Disabled WLAN Firmware loggings
+ - [App] Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
 
 ---------------------------------------
 
 ## *v4.0.5 (2021.03.08)*
-### *Mainline:*
- - DeviceSettings: Added Clear Speaker
- - ESE:   LA.UM.9.6.2.r1-03300-89xx.0
- - Media: LA.UM.9.6.2.r1-03300-89xx.0
- - WFD:   LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
- - GPS:   LA.UM.9.6.2.r1-03300-89xx.0
- - Time:  LA.UM.9.6.2.r1-03300-89xx.0
- - Radio and IMS: LA.UM.9.6.2.r1-03300-89xx.0
-
-### *Fixes:*
- - AudioFX: FixedUp AudioFX (Source)
- - FixedUp Dirac back-end (Tree)
- 
-### *Optimizations:*
- - Recorder: Set maxinum meida record to 60fps
- - IMS: Allow com.qualcomm.location to run in the background
- - Bluetooth: Disable clean turn on
- - Porps: Set vendor.audio.adm.buffering.ms to 3 
- - Props: Shorten wait time for services exit to optimize shutdown time
- - Rootdir: Add permission for /dev/sp_keymaster_ssr
- - Sepolicy: Adress system_server denials
- - Sepolicy: Address gmscore_app.te denials
+ - [DeviceSettings] Added Clear Speaker
+ - [Blobs] ESE:   LA.UM.9.6.2.r1-03300-89xx.0
+ - [Blobs] Media: LA.UM.9.6.2.r1-03300-89xx.0
+ - [Blobs] WFD:   LA.UM.9.6.2.r1-03300-89xx.0 (WFD stll WIP)
+ - [Blobs] GPS:   LA.UM.9.6.2.r1-03300-89xx.0
+ - [Blobs] Time:  LA.UM.9.6.2.r1-03300-89xx.0
+ - [Blobs] Radio and IMS: LA.UM.9.6.2.r1-03300-89xx.0
+ - [AudioFX] FixedUp AudioFX (Source) // FixedUp Dirac back-end (Tree)
+ - [Recorder] Set maxinum meida record to 60fps
+ - [IMS] Allow com.qualcomm.location to run in the background
+ - [Bluetooth] Disable clean turn on
+ - [Porps] Set vendor.audio.adm.buffering.ms to 3 
+ - [Props] Shorten wait time for services exit to optimize shutdown time
+ - [Rootdir] Add permission for /dev/sp_keymaster_ssr
+ - [Sepolicy] Adress system_server denials
+ - [Sepolicy] Address gmscore_app.te denials
 
 ### *Source:*
 - March patch
@@ -60,21 +51,16 @@
 ---------------------------------------
 
 ## *v4.0.3 (2021.02.21)*
-### *Mainline:*
- - Add Dirac back-end support (for Fries Dirac)
- - Add support for 240FPS 1/8 slow motion
- - update Telephony overlays from LA.UM.9.2.1.r1-05500-sdm660.0
-
-### *Fixes:*
- - Re-Enable zRAM (2 GB)
-
-### *Optimizations:*
- - Disable V-Sync (Smoother Ui)
- - Move some props into his right path
- - Symlink metadata to existing sessions 
- - Disable foreground prefer_idle & reduce TA boost
- - import Hotword Enrollment blobs
- - Optimize thermal
+ - [AudioFX] Add Dirac back-end support (for Fries Dirac)
+ - [Camera] Add support for 240FPS 1/8 slow motion
+ - [Overlay] update Telephony overlay from LA.UM.9.2.1.r1-05500-sdm660.0
+ - [zRAM] Re-Enable zRAM (2 GB)
+ - [Display] Disable V-Sync (Smoother Ui)
+ - [Props]Move some props into his right path
+ - [APEX] Symlink metadata to existing sessions 
+ - [Kernel] Disable foreground prefer_idle & reduce TA boost
+ - [Blobs-GMS] Import Hotword Enrollment blobs
+ - [Thermal] Optimized
 
 ### *Source:*
 - Use fixed row & column in landscape if media is playing
@@ -91,17 +77,13 @@
 ---------------------------------------
 
 ## *v4.0.2 (2021.02.15)*
-### *Mainline:*
- - Build enforce
- - Update Kernel to Predator-Stormbreaker-X4.4 - 4.4.257
- - Updated fingerprint from Redfin - RQ1A.210205.004
- - Update telephony from LA.QSSI.11.0.r1-09400-qssi.0 (Now the RIL / VoLTE is way better)
+ - [UX] Build enforce
+ - [Kernel] Update to Predator-Stormbreaker-X4.4 - 4.4.257
+ - UpdateD Telephony from LA.QSSI.11.0.r1-09400-qssi.0 (Now the RIL / VoLTE is way better)
  - Updated blobs from LA.UM.8.2.r1-07400-sdm660.0
  - Updated GPS blobs from LA.UM.9.12.r1-09500-SMxx50.0 to improve GPS accuracy
  - Updated GPS HAL from LA.UM.9.2.r1-01800-SDMxx0.0 to improve GPS accuracy
  - Updated thermal and Widevine blobs from jasmine V11.0.19.0 QDIMIXM
-
-### *Fixes:*
  - Fixed POSP bootanimation lag
  - Fixed Google Recorder
  - [temp] Removed L1 support to fix Netflix crashes
@@ -110,8 +92,6 @@
  - Fixed some issues that reported from the logs
  - (Hopefully) fix the WFD
  - Fixed Offline charing (it was activating the bootanimation at the same time, now it's only the offline charge)
-
-### *Optimizations:*
  - create and symlink a dummy /metadata/apex to get use of the new AOSP Changes for APEX
  - Dropped custom DHCP ranges in TetheringOverlay
  - TetheringOverlay and WifiOverlay now gets signed with default cert
@@ -157,7 +137,6 @@
 ---------------------------------------
 
 ## *v4.0.1 (2020.12.24)*
-### *Mainline:*
  - Initial Official Release (Crispy)
  - Updated build fingerprint to Coral RQ1A.201205.008.
  - Updated kernel to Predator-Stormbreaker X4.2 - 4.4.248.
