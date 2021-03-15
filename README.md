@@ -12,6 +12,12 @@
  - [WLAN] Disabled WLAN Firmware loggings
  - [AudioFX] Nuked Dirac From Settings + Dirac QS Tile (A new QS for AudioFX itself will be added later)
 
+### *Source:*
+ - [Fries] Add SmartClock (1/2)
+ - [Fries] Add Network Traffic (Expect more improvements)
+ - [SystemUI] Add AOD QS tile
+
+
 ---------------------------------------
 
 ## *v4.0.5 (2021.03.08)*
