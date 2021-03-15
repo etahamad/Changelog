@@ -1,5 +1,7 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
+---------------------------------------
+
 ## *v4.0.6 (2021.03.15)*
 ### *Mainline:*
  - Updated Kernel to Predator X4.4-r1 - 4.4.258
