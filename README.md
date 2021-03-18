@@ -1,5 +1,5 @@
-### Potato Open Sauce Project
-## or POSP, for short
+## Potato Open Sauce Project
+### or POSP, for short
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 
