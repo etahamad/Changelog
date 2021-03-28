@@ -2,6 +2,30 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 
+## *v4.0.7 (2021.03.29)*
+ - [Kernel] Updated Kernel to Predator X4.4 - 4.4.263 Release
+ - [WFD] Fixed Wifi Display
+ - [GPS] Fixed 3D GPS Navigation "Offline GPS"
+ - [DRM-TEST] Fixed Netflix with L1 
+ - [Thermal] Switch to wayne thermal blobs
+ - [Thermal] Loosen up thermal throttling thresholds to fix thermal issues like slow charging charging, etc
+ - [Overlays] Updated some vibration patterns from pixel 2 
+ - [Overlays] Removed all-caps text for buttons
+ - [Overlays] Add SimpleDeviceConfig from ProtonAOSP
+ - [I/O Rap] Improve apps launch time
+ - [Power HAL] Tune schedtune boost to match redfin SPP2
+ - [CPU] Add dynamic stune boost and input boost 
+ - [Prop] Optimized shutdown time by a bit
+ - [SurfaceFlinger] Switched to AOSP SurfaceFlinger "smoother than CAF"
+ - [General] Switch to sdfat driver for exfat
+
+### *Dev Notes*
+- Netflix: Since First Release of A11, Netflix never worked with L1 on lavender, I have done some *Initial* fixes on it,
+but i didn't test because i don't have Netflix Account, btw, just test with/out Blur and check if it's Reboots or not.
+- GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc
+just go out, or go to your roof,
+just make sure that you in an open area and check.
+- Battery: YES, we do improved battery SOT.
 
 ## *v4.0.6 (2021.03.15)*
  - [Kernel] Updated Kernel to Predator X4.4-r1 - 4.4.258
