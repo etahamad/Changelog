@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 
-## *v4.0.7 (2021.03.29)*
+## *v4.1.0 (2021.03.29)*
  - [Kernel] Updated Kernel to Predator X4.4 - 4.4.263 Release
  - [WFD] Fixed Wifi Display
  - [GPS] Fixed 3D GPS Navigation "Offline GPS"
