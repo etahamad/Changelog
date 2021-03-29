@@ -6,7 +6,7 @@
  - [Kernel] Updated Kernel to Predator X4.4 - 4.4.263 Release
  - [WFD] Fixed Wifi Display
  - [GPS] Fixed 3D GPS Navigation "Offline GPS"
- - [DRM-TEST] Fixed Netflix with L1 
+ - [DRM] Fixed Netflix random reboots with L1 
  - [Thermal] Switch to wayne thermal blobs
  - [Thermal] Loosen up thermal throttling thresholds to fix thermal issues like slow charging charging, etc
  - [Overlays] Updated some vibration patterns from pixel 2 
