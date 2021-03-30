@@ -23,13 +23,11 @@
  - [SurfaceFlinger] Switched to AOSP SurfaceFlinger "smoother than CAF"
  - [General] Switch to sdfat driver for exfat
 
-### *Dev Notes*
-- Netflix: Since First Release of A11, Netflix never worked with L1 on lavender, I have done some *Initial* fixes on it,
-but i didn't test because i don't have Netflix Account, btw, just test with/out Blur and check if it's Reboots or not.
-- GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc
-just go out, or go to your roof,
-just make sure that you in an open area and check.
-- Battery: YES, we do improved battery SOT.
+>> Netflix: Since First Release of A11, Netflix never worked with L1 on lavender, I have done some *Initial* fixes on it, but i didn't test because i don't have Netflix Account, btw, just test with/out Blur and check if it's Reboots or not.
+
+>> GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc, just go out, or go to your roof, or any open area and check.
+
+>> Battery: YES, we do improved battery SOT.
 
 ## *v4.0.6 (2021.03.15)*
  - [Kernel] Updated Kernel to Predator X4.4-r1 - 4.4.258
