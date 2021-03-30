@@ -6,6 +6,8 @@
 
 >> Launcher: We have switched to Lawinchair as default launcher, but idk how it's gonna affect Pixel Launcher, so if you faced any weird issues with Pixel Launcher, please don't report.
 
+---------------------------------------
+
 ## *v4.1.0 (2021.03.29)*
  - [Kernel] Updated Kernel to Predator X4.4 - 4.4.263 Release
  - [WFD] Fixed Wifi Display
