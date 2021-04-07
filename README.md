@@ -1,6 +1,12 @@
 ## Potato Open Sauce Project or POSP, for short.
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
+## *v4.1.3 (2021.04.06)*
+- [WLAN] Optimize 5GHz
+- [SEPolicy] Fix some camera denials
+- [Power HAL] Fix AUDIO_LAUNCH log spam
+- [Hardware] Build Compiled using msm8998 R HALs
+
 ## *v4.1.1 (2021.03.30)*
  - [DRM] Completely fixed Netflix with L1
 
