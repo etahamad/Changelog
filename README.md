@@ -3,7 +3,7 @@
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
 
-## *v4.1.3 (2021.04.06)*
+## *v4.1.3 (2021.04.07)*
 - [WLAN] Optimize 5GHz
 - [SEPolicy] Fix some camera denials
 - [Power HAL] Fix AUDIO_LAUNCH log spam
