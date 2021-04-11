@@ -9,6 +9,8 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [Power HAL] Fix AUDIO_LAUNCH log spam
 - [Hardware] Build Compiled using msm8998 R HALs
 
+---------------------------------------
+
 ## *v4.1.1 (2021.03.30)*
  - [DRM] Completely fixed Netflix with L1
 
@@ -38,6 +40,8 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 >> GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc, just go out, or go to your roof, or any open area and check.
 
 >> Battery: YES, we do improved battery SOT.
+
+---------------------------------------
 
 ## *v4.0.6 (2021.03.15)*
  - [Kernel] Updated Kernel to Predator X4.4-r1 - 4.4.258
