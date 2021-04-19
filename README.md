@@ -2,6 +2,19 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
+## *v4.1.4 (2021.04.19)*
+- [Kernel] Upstream Kernel to Predator - Stormbreaker x4.5 - 4.4.266
+- [Power HAL] Tune down schedtune boost ~saves some battery
+- [ART] Configure dext2oat for pre-optimization
+- [AdaptLaunch] Improved apps launch time by a notable change
+- [USB] Enable support for USB Audio accessories
+- [zRAM] Allocate zRAM values dynamically
+- [zRAM] Fined Tune zRAM writeback
+
+>> `zRAM:` *dynamically?* what's that? simple, we just made it 50% insist of a value, which means, for 3GB it will be ~1.3GB and for 4GB it will be ~1.8GB. The reason for why i >> did this is because zRAM mechanism takes some CPU performance to give you some free RAM, so exact value as google said (50% of your RAM) == balanced performance.
+
+>> `DeviceSettings:`  app has been nuked to match the Stock AOSP lines.
+---------------------------------------
 
 ## *v4.1.3 (2021.04.07)*
 - [WLAN] Optimize 5GHz
