@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
-## *v4.1.5 (2021/05/10)*
+## *v4.1.5 (2021.05.10)*
 - [Blobs] Update WFD and Time blobs from LA.UM.9.2.r1-01800-SDMxx0.0
 - [Audio HAL] Switch back to audio HAL v6
 - [Audio Policy] Add some missing audio routes
@@ -11,6 +11,8 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [GPS] Localise NTP to improve GPS TTFF
 - [GPS] Improved GPS response time
 - [WiFi] Disable TDLS OffChannel
+
+>> `AudioFX:` `Dirac` was buggy, it was not working by default, maybe later i will switch to prebuilt audio hal then `MiSound` will work.
 ---------------------------------------
 
 ## *v4.1.4 (2021.04.19)*
