@@ -2,6 +2,17 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
+## *v4.1.5 (2021/05/10)*
+- [Blobs] Update WFD and Time blobs from LA.UM.9.2.r1-01800-SDMxx0.0
+- [Audio HAL] Switch back to audio HAL v6
+- [Audio Policy] Add some missing audio routes
+- [AudioFX] Drop AudioFX in Fries
+- [SurfaceFlinger] Update Frames consistently *~smoother ui*
+- [GPS] Localise NTP to improve GPS TTFF
+- [GPS] Improved GPS response time
+- [WiFi] Disable TDLS OffChannel
+---------------------------------------
+
 ## *v4.1.4 (2021.04.19)*
 - [Kernel] Upstream Kernel to Predator - Stormbreaker x4.5 - 4.4.266
 - [Power HAL] Tune down schedtune boost ~saves some battery
