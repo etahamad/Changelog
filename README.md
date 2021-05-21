@@ -2,6 +2,29 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
+## *v4.1.6 (2021.xx.xx)*
+- [General] User Build
+    - We had some neverallows while tryna to build user builds with potato on lavender, we have removed all of them as device-sepolicy side and legacy-um side :).
+- [UI/UX] Improve overall user experience
+    - Slightly Improved RAM management (A10 golden days)
+    - Slightly Improved Scrolling/Swipes (As it wasn't super fast, eh?)
+- [Audio HAL] Switch to Audio HAL v5
+- [SoundTrigger] Update audio configs and enable soundtrigger
+    - Well, some people reported that they can't use Ok Google and stuff, this is now completely fixed.
+- [Overlays] Don’t enforce RRO for all overlays
+    - Fixed /product/overlay.
+    - This makes many platform specific overlays with current system API on vendor partition which breaks newer android version compatibilities (broken stuffs in gsis).
+- [zRAM] Update and optimize zRAM configuration
+    - post_boot: Ensure SLAB_STORE_USER is disabled for zram kmem_caches
+    - post_boot: update zRAM setting avoid 32 bit overflow
+- [Power HAL] General optimizations
+    - Relax memlat from post_boot and let libperfmgr handles it
+    - powerhint: Decrease launch boost to 3sec
+    - libperfmgr.rc: Let power hal start early
+    - libperfmgr.rc: perfmgr now change dex2oat priorities along with overriding readahead to 128KiB after post-boot
+
+---------------------------------------
+
 ## *v4.1.5 (2021.05.10)*
 - [Blobs] Update WFD and Time blobs from LA.UM.9.2.r1-01800-SDMxx0.0
 - [Audio HAL] Switch back to audio HAL v6
@@ -13,6 +36,7 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [WiFi] Disable TDLS OffChannel
 
 >> `AudioFX:` `Dirac` was buggy, it was not working by default, maybe later i will switch to prebuilt audio hal then `MiSound` will work.
+
 ---------------------------------------
 
 ## *v4.1.4 (2021.04.19)*
