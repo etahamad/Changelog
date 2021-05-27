@@ -20,6 +20,8 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [Power HAL] General optimizations
     - Relax memlat from post_boot and let libperfmgr handles it
     - powerhint: Decrease launch boost to 3sec
+    - powerhint: Remove interaction boosts
+        - Fixes `E: Slow writing to file: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq' with value: '1113600'`
     - libperfmgr.rc: Let power hal start early
     - libperfmgr.rc: perfmgr now change dex2oat priorities along with overriding readahead to 128KiB after post-boot
 
