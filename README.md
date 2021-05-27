@@ -1,4 +1,4 @@
-## Potato Open Sauce Project or POSP, for short.
+## POSP 🥔
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
