@@ -2,12 +2,9 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
-## *v4.1.6 (2021.xx.xx)*
+## *v4.1.6 (2021.05.31)*
 - [General] User Build
     - We had some neverallows while tryna to build user builds with potato on lavender, we have removed all of them as device-sepolicy side and legacy-um side :).
-- [UI/UX] Improve overall user experience
-    - Slightly Improved RAM management (A10 golden days)
-    - Slightly Improved Scrolling/Swipes (As it wasn't super fast, eh?)
 - [Audio HAL] Switch to Audio HAL v5
 - [SoundTrigger] Update audio configs and enable soundtrigger
     - Well, some people reported that they can't use Ok Google and stuff, this is now completely fixed.
