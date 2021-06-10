@@ -2,6 +2,13 @@
 <img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 
 This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs-for-Redmi-Note-7-lavender-7e698ecf28dd435e995046edc76a49f7) check it out!
+## *v4.2.0 (2021.06.8)*
+
+- [General] Reduced jitter [dc652a7](https://github.com/PotatoDevices/device_xiaomi_sdm660-common/commit/dc652a70533065279b97818eb0e026bf23b24750)
+    - Less time opening Twitter photos, etc.
+
+---------------------------------------
+
 ## *v4.1.6 (2021.05.31)*
 - [General] User Build
     - We had some neverallows while tryna to build user builds with potato on lavender, we have removed all of them as device-sepolicy side and legacy-um side :).
