@@ -5,7 +5,7 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 
 ---
 
-## v4.2.X xx.xx.21
+## v4.2.X xx.xx.21'
 
 - [Kernel] Introduce Chips Kernel v1.0 - EAS - 4.4.273
 - [Power HAL] Are you ready?
