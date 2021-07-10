@@ -66,7 +66,7 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [GPS] Improved GPS response time
 - [WiFi] Disable TDLS OffChannel
 
- `AudioFX:` `Dirac` was buggy, it was not working by default, maybe later i will switch to prebuilt audio hal then `MiSound` will work.
+ >> `AudioFX:` `Dirac` was buggy, it was not working by default, maybe later i will switch to prebuilt audio hal then `MiSound` will work.
 
 ---
 
@@ -81,9 +81,9 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 - [zRAM] Allocate zRAM values dynamically
 - [zRAM] Fined Tune zRAM writeback
 
-`zRAM:` *dynamically?* what's that? simple, we just made it 50% insist of a value, which means, for 3GB it will be ~1.3GB and for 4GB it will be ~1.8GB. The reason for why i did this is because zRAM mechanism takes some CPU performance to give you some free RAM, so exact value as google said (50% of your RAM) == balanced performance.
+>> `zRAM:` *dynamically?* what's that? simple, we just made it 50% insist of a value, which means, for 3GB it will be ~1.3GB and for 4GB it will be ~1.8GB. The reason for why i did this is because zRAM mechanism takes some CPU performance to give you some free RAM, so exact value as google said (50% of your RAM) == balanced performance.
 
-`DeviceSettings:`  app has been nuked to match the Stock AOSP lines.
+>> `DeviceSettings:`  app has been nuked to match the Stock AOSP lines.
 
 ---
 
@@ -100,7 +100,7 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 
 - [DRM] Completely fixed Netflix with L1
 
-Launcher: We have switched to Lawnchair as default launcher, but idk how it's gonna affect Pixel Launcher, so if you faced any weird issues with Pixel Launcher, please don't report.
+>> Launcher: We have switched to Lawnchair as default launcher, but idk how it's gonna affect Pixel Launcher, so if you faced any weird issues with Pixel Launcher, please don't report.
 
 ---
 
@@ -122,11 +122,11 @@ Launcher: We have switched to Lawnchair as default launcher, but idk how it's go
 - [SurfaceFlinger] Switched to AOSP SurfaceFlinger "smoother than CAF"
 - [General] Switch to sdfat driver for exfat
 
-Netflix: Since First Release of A11, Netflix never worked with L1 on lavender, I have done some Initial fixes on it, but i didn't test because i don't have Netflix Account, btw, just test with/out Blur and check if it's Reboots or not.
+>> Netflix: Since First Release of A11, Netflix never worked with L1 on lavender, I have done some Initial fixes on it, but i didn't test because i don't have Netflix Account, btw, just test with/out Blur and check if it's Reboots or not.
 
-GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc, just go out, or go to your roof, or any open area and check.
+>> GPS: The reason why offline gps wasn't working is because you was testing it in a closed area like home, etc, just go out, or go to your roof, or any open area and check.
 
-Battery: YES, we do improved battery SOT.
+>> Battery: YES, we do improved battery SOT.
 
 ---
 
@@ -226,4 +226,4 @@ Battery: YES, we do improved battery SOT.
 - Added new offline charging animation with battery level.
 - Less boot time.
 
-Netflix is not working with L1 (crashes)
+>> Netflix is not working with L1 (crashes)
