@@ -5,14 +5,13 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 
 ---
 
-## v4.2.X xx.xx.21'
+## v4.2.1 10.07.21'
 
 - [Kernel] Introduce Chips Kernel v1.1 - 4.4.274
     - based on predator stormbreaker x4.6
 - [Overlay] Update auto-brightness values
     - Improve how auto-brightness works, inside, outside, office, daylight, etc.
-    - `config_screenBrightnessDim` 6 → 10
-    - `config_screenBrightnessSettingDefault` 98 → 128
+    - Fixed an issues leads to too dim screen inside doors.
 - [Power HAL] Major improvements
     - [Powerhint] Switched to `sysctl` to control energy aware
         - Energy aware feature control is previously done through debugfs,
