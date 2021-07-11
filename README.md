@@ -9,16 +9,13 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
 
 - [Kernel] Introduce Chips Kernel v1.1 - 4.4.274
     - based on predator stormbreaker x4.6
-- [Overlay] Update auto-brightness values
-    - Improve how auto-brightness works, inside, outside, office, daylight, etc.
-    - Fixed an issues leads to too dim screen inside doors.
 - [Power HAL] Major improvements
     - [Powerhint] Switched to `sysctl` to control energy aware
         - Energy aware feature control is previously done through debugfs,
         which will be deprecated, so move the control to sysctl.
     - [Powerhint] Bring back `interaction`, without the bugged ones
         - Bugged: `CPULittleClusterMinFreq`
-    - [Powerhint] Adjustments
+    - [Powerhint] Major improvements 
         - `idle_timer`  80 → 64
         - `TASchedtuneBoost` 20 → 10
         - General `LAUNCH`duration 3000 → 2500
