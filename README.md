@@ -15,7 +15,7 @@ This Page is now live on [Notion](https://www.notion.so/etahamad/POSP-Changelogs
         which will be deprecated, so move the control to sysctl.
     - [Powerhint] Bring back `interaction`, without the bugged ones
         - Bugged: `CPULittleClusterMinFreq`
-    - [Powerhint] Major improvements 
+    - [Powerhint] Adjustments
         - `idle_timer`  80 → 64
         - `TASchedtuneBoost` 20 → 10
         - General `LAUNCH`duration 3000 → 2500
